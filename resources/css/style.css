@@ -11,20 +11,23 @@ div {
 }
 
 /*Site container*/
-.site_container {
+.site-container {
   width: 960px;
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
   justify-content: center;
+  margin: 0 auto;
 }
 
 /*Header*/
 .header {
   height: 4rem;
+  display: flex;
+  align-items: center;
 }
-
 #logo_container {
-
+  display: flex;
+  justify-content: space-between;
 }
 
 .logoname {
@@ -35,18 +38,24 @@ div {
   padding: 0rem 1.5rem;
 }
 
+.logoname img {
+  height: 2.5rem;
+}
+
 .logoname h1 {
   font-family: Ubuntu, sans-serif;
-  font-size: 2rem;
+  font-size: 1.5rem;
+  color: gray;
 }
 
 .logoname h1 span {
   font-family: Ubuntu, sans-serif;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 700;
+  color: black;
 }
 
-.nav {
+nav {
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -54,6 +63,6 @@ div {
   font-size: 1rem
 }
 
-.nav span {
+nav p{
   padding-left: 1rem;
 }

@@ -6,7 +6,7 @@ html {
 }
 
 /*For development purposes*/
-div {
+/*div {
   border: 1px solid purple;
 }
 
@@ -286,3 +286,24 @@ button {
   background-color: darkgrey;
 }
 /*Footer*/
+.footer {
+  padding: 1rem;
+  background-color: white;
+}
+
+#foot_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footnav {
+  display: flex;
+}
+
+.footer p {
+  padding-left: 1.5rem;
+}
+
+.footnav p {
+  padding: 0rem 1rem;
+}

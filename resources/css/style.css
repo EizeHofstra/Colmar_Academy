@@ -22,6 +22,12 @@ body {
   margin: 0 auto;
 }
 
+@media only screen and (max-width: 640px) {
+  .site_container {
+    width: 100%;
+  }
+}
+
 /*Header*/
 .header {
   height: 4rem;
@@ -32,6 +38,10 @@ body {
 #logo_container {
   display: flex;
   justify-content: space-between;
+}
+
+.mobile {
+  display: none;
 }
 
 .logoname {
@@ -73,6 +83,23 @@ nav p{
 
 #last {
   margin-right: 1.5rem;
+}
+
+@media only screen and (max-width:640px) {
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: initial;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .mobile img {
+    height: 2rem;
+  }
 }
 
 /*Banner*/

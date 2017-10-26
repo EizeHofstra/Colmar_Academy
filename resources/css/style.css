@@ -26,6 +26,14 @@ body {
   .site_container {
     width: 100%;
   }
+
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: initial;
+  }
 }
 
 /*Header*/
@@ -91,7 +99,6 @@ nav p{
   }
 
   .mobile {
-    display: initial;
     display: flex;
     justify-content: space-around;
     width: 100%;
@@ -255,6 +262,33 @@ button {
 .guest_lecture {
   background-color: lightgrey;
 }
+
+@media only screen and (max-width: 640px) {
+  .block {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .info {
+    width: auto;
+    margin: 0rem;
+  }
+
+  .info_picture {
+    width: auto;
+  }
+
+  .info_text {
+    width: auto;
+    justify-content: center;
+    padding: 2rem 0rem 4rem 1rem;
+  }
+
+  .guest_lecture {
+    background-color: white;
+  }
+}
+
 /*Learning*/
 .learning {
   background: lightgrey;

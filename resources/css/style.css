@@ -65,13 +65,13 @@ body {
 }
 
 .logoname h1 {
-  font-family: Ubuntu, sans-serif;
+  font-family: Roboto, sans-serif;
   font-size: 1.5rem;
   color: gray;
 }
 
 .logoname h1 span {
-  font-family: Ubuntu, sans-serif;
+  font-family: Roboto, sans-serif;
   font-size: 1.5rem;
   font-weight: 700;
   color: black;
@@ -87,6 +87,10 @@ nav {
 
 nav p{
   padding-left: 1rem;
+}
+
+nav p:hover {
+  color: blue;
 }
 
 #last {
@@ -134,14 +138,14 @@ nav p{
 
 .main_text h1 {
   color: black;
-  font-family: Ubuntu, sans-serif;
+  font-family: Roboto, sans-serif;
   font-weight: 700;
   font-size: 2.5rem;
 }
 
 .main_text h2 {
   color: black;
-  font-family: Ubuntu, sans-serif;
+  font-family: Roboto, sans-serif;
   font-weight: 400;
   font-size: 1.5rem;
   padding: 2rem 0rem;
@@ -150,10 +154,14 @@ nav p{
 button {
   color: white;
   background-color: black;
-  font-family: Ubuntu, sans-serif;
+  font-family: Roboto, sans-serif;
   font-size: 1.3rem;
   padding: 0.5rem 0rem;
   width: 100%;
+}
+
+button:hover {
+  background-color: LightSkyBlue;
 }
 
 @media only screen and (max-width: 640px) {
@@ -202,7 +210,7 @@ button {
 }
 
 .practice h1 {
-  font-family: Ubuntu, sans-serif;
+  font-family: Roboto, sans-serif;
   font-weight: 700;
   font-size: 2rem;
   padding: 2rem 0rem 1.5rem 0rem;
@@ -210,10 +218,12 @@ button {
 
 .practice p {
   padding-bottom: 1.5rem;
+  font-family: Roboto, sans-serif;
 }
 
 .practice h6 {
   font-size: 0.8rem;
+  font-family: Roboto, sans-serif;
 }
 
 .info {
@@ -237,6 +247,10 @@ button {
   justify-content: center;
   padding-left: 1rem;
   width: 65%;
+}
+
+.info_text a:hover {
+  color: green;
 }
 
 .block {
@@ -295,7 +309,7 @@ button {
 }
 
 .learning h1 {
-  font-family: Ubuntu, sans-serif;
+  font-family: Roboto, sans-serif;
   font-size: 2rem;
   font-weight: 700;
   padding: 2rem 0rem 1rem 0rem;
@@ -314,6 +328,11 @@ button {
   width: 25%;
   margin: 1rem;
   background-color: white;
+  transition: all 1s 0.3s;
+}
+
+.course:hover {
+  transform: scale(1.1,1.1);
 }
 
 .course img{
@@ -371,7 +390,7 @@ button {
 }
 
 .thesis h1 {
-  font-family: Ubuntu, sans-serif;
+  font-family: Roboto, sans-serif;
   font-size: 2rem;
   font-weight: 700;
   padding: 2rem 0rem 2rem 0rem;
